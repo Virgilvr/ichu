@@ -1,0 +1,31 @@
+name: Ejecutar Holehe
+
+on:
+  workflow_dispatch:
+
+jobs:
+  holehe:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Configurar Repositorio
+      uses: actions/checkout@v3
+
+    - name: Instalar Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+
+    - name: Instalar Holehe
+      run: |
+        pip install holehe
+
+    - name: Ejecutar Holehe
+      run: |
+        holehe test@gmail.com --csv > resultados.csv
+
+    - name: Guardar Resultados
+      uses: actions/upload-artifact@v3
+      with:
+        name: Resultados-Holehe
+        path: resultados.csv
