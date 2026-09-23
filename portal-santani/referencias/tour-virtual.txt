@@ -1,0 +1,19 @@
+TOUR VIRTUAL — Portal de Santaní
+URL: https://trebolote.com.py/proyecto/YAt6vEGVX6ShhhewOeco
+Consultado: 2026-09-23 (vía Firecrawl; acceso directo bloqueado por la red del entorno)
+
+Loteadora: Trebol Loteadora (trebolote.com.py)
+Estado: Venta activa
+Tipo: Residencial
+Ubicación: San Estanislao, San Pedro
+Precio desde: Gs 200.000   (rótulo literal de la página: "Precio desde")
+Superficie desde: 360 m²
+Lotes: 640 disponibles / 3 vendidos / 7 reservados  (total 650 — dato variable, NO usar en video)
+Atributos del proyecto listados: Agua · Energía eléctrica · Plaza / Área verde
+Botón "Contactar por WhatsApp": enlace genérico wa.me sin número.
+Contacto general publicado: +595 972 330 000 (no confirmado como WhatsApp)
+Email: contacto@trebolote.com.py
+Imagen principal: https://res.cloudinary.com/di9zjzicl/image/upload/v1775848229/trebol-loteadora/projects/cards/y2qigwucog7mimiqjtuv.jpg
+Logo: https://trebolote.com.py/trebol.png  · Isotipo: https://trebolote.com.py/isotipo1.png
+Mapa del tour: Mapbox con marcador (datos por lote cargados dinámicamente; no extraíbles sin interacción).
+Instagram: @trebol_loteadora

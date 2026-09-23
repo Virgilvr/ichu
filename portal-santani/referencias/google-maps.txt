@@ -1,0 +1,7 @@
+GOOGLE MAPS — enlace proporcionado
+Corto: https://maps.app.goo.gl/LqQsMB7dCeEpfBq96?g_st=aw
+Resuelve a una RUTA (no a un pin):
+https://www.google.com/maps/dir/-25.2853028,-57.5700873/-24.6671226,-56.4653141/
+  Origen:  -25.2853028, -57.5700873  (zona Asunción — ubicación de quien compartió)
+  Destino: -24.6671226, -56.4653141  (San Estanislao — punto de referencia del proyecto)
+Nota: es un punto, no un perímetro. La geometría real debe venir de santani.kmz.
