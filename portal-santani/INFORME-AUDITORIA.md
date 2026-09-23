@@ -30,12 +30,13 @@ El repo solo tenía `README.md` y un workflow ajeno al proyecto. Se creó la est
 | San Estanislao, San Pedro | Tour Virtual | ✅ Verificado |
 | Residencial · Venta activa | Tour Virtual | ✅ Verificado |
 | Desde 360 m² | Tour Virtual | ✅ Verificado |
-| Gs 200.000 | Tour Virtual — rotulado **"Precio desde"**, no "cuota" | ⚠️ Ver punto E-1 |
+| Cuotas desde Gs 200.000 | Tour Virtual ("Precio desde"). Las fichas muestran cuota ~Gs 260–270 mil y contado ~Gs 20 M → Gs 200.000 solo puede ser cuota | ✅ Resuelto (actualización 1) |
 | 650 lotes | Tour: 640 disp. + 3 vendidos + 7 reservados = 650 | ✅ Verificado |
 | Agua · Energía eléctrica · Plaza/Área verde | Tour Virtual (atributos) | ✅ Está en la fuente — no incluido en el guion salvo que lo autorices |
-| Hasta 130 meses · Opción contado | Tu brief | ⚠️ No figura en la página pública |
+| Hasta 130 meses · Opción contado | Fichas de lote del Tour (Plazo 130 meses + Precio contado) | ✅ Verificado |
 | 700 m Ruta 3 · 2 min Ka'avo · 7 min centro | Tu brief | ⚠️ No verificable desde las fuentes accesibles |
-| Seña por lote | Tour (datos por lote dinámicos) | ❌ No extraíble; no se menciona monto |
+| Seña por lote | No aparece en las fichas observadas | ❌ No se menciona en el Reel |
+| Ficha por lote (estado, manzana, superficie, plazo, cuota, contado, WhatsApp) | Tour Virtual — ver `datos/lotes/` | ✅ Solo como referencia; valores variables |
 
 ## C. Datos geográficos (santani.kmz)
 
@@ -105,3 +106,44 @@ Si no llega el KMZ: escenas 3 y 7 usan solo el pin + imagen principal con zoom, 
 
 ### Entregables previstos en `output/`
 `portal-santani-reel.mp4` (voz) · `portal-santani-reel-subtitulado.mp4` · `portada-instagram.png` (1080×1920 y 1080×1350) · `guion.md` · `subtitulos.srt` · `inventario-recursos.md` · `fuentes.md`
+
+
+---
+
+# ACTUALIZACIÓN 1 — El Tour Virtual como argumento de venta
+
+## Qué cambió
+- **E-1 resuelto:** Gs. 200.000 es cuota (el contado ronda los Gs. 20 M).
+- **E-4 resuelto:** 130 meses y opción contado aparecen en las fichas de lote.
+- Se agrega una escena que demuestra cómo usar el Tour. Es el diferencial del Reel: el cliente ve **cómo** consultar su lote.
+- Se agrega la frase **"Cada lote tiene su propia cuota y condición comercial."**
+- Las dos fichas observadas (Mz 8 y Mz 14) quedan en `datos/lotes/` **solo como referencia**. No se muestran como oferta.
+
+## Cómo se muestra la ficha sin inventar ni prometer
+- **Opción A (recomendada): grabación real de pantalla** del Tour desde tu celular (vertical, 20–30 s): abrir el Tour, mover el mapa, tocar un lote y esperar a que abra la ficha. Le agrego zoom, resaltados y rótulos encima.
+- **Opción B: simulación fiel** con tus capturas de la ficha (mapa + popup). Sin capturas no puedo copiar el diseño real: no vi la interfaz.
+- En cualquiera de las dos, los **valores numéricos se desenfocan** y solo quedan nítidos los rótulos SUPERFICIE · CUOTA · PLAZO · CONTADO. Así la escena enseña *dónde mirar* y no parece una oferta. Además se ven los precios tachados de la promo, que no deben leerse como promoción general.
+- Sobreimpreso fijo: *"Valores referenciales. Cada lote tiene su propia cuota y condición comercial."*
+
+## Storyboard revisado (42 s)
+
+| # | Tiempo | Visual | Texto en pantalla | Voz |
+|---|--------|--------|-------------------|-----|
+| 1 | 0–3 | Push-in sobre la imagen principal | ¿BUSCÁS UN TERRENO EN SANTANÍ? → CONOCÉ PORTAL DE SANTANÍ | "¿Buscás un terreno en Santaní? Conocé Portal de Santaní." |
+| 2 | 3–7 | Zoom de mapa hasta el pin (−24.6671, −56.4653) | PORTAL DE SANTANÍ · A 700 m DE LA RUTA 3 | — |
+| 3 | 7–11 | Perímetro y manzanas del KMZ dibujándose | 650 LOTES · DESDE 360 m² | "650 lotes, desde 360 metros cuadrados." |
+| 4 | 11–15 | Número gigante en conteo | CUOTAS DESDE **Gs. 200.000** · *Cada lote tiene su propia cuota y condición comercial.* | "Cuotas desde 200 mil guaraníes." |
+| 5 | 15–18 | Dos tarjetas | HASTA 130 MESES · OPCIÓN CONTADO | "Planes de hasta 130 meses u opción contado." |
+| 6 | 18–22 | Mapa con 3 marcadores | A 2 min. del almacén Ka'avo · Aprox. 7 min. del centro de Santaní | "A 700 metros de la Ruta 3, a 2 minutos del almacén Ka'avo y a unos 7 del centro." |
+| **7** | **22–34** | **Celular con el Tour:** ① entra al Tour ② recorre el mapa ③ toca un lote ④ se abre la ficha ⑤ se resaltan en secuencia SUPERFICIE → CUOTA → PLAZO → CONTADO ⑥ pulso en el botón WhatsApp | 1 · ENTRÁ AL TOUR VIRTUAL · 2 · ELEGÍ TU LOTE · 3 · MIRÁ SU SUPERFICIE, CUOTA Y CONTADO | "Entrá al Tour Virtual, recorré el proyecto y tocá el lote que te guste: ves su superficie, su cuota, el plazo y el precio contado." |
+| 8 | 34–42 | Burbuja de WhatsApp escribiendo SANTANÍ + logo | ELEGÍ TU LOTE · CONSULTÁ SU CUOTA · ESCRIBINOS **SANTANÍ** POR WHATSAPP · Te enviamos los lotes disponibles y sus cuotas. · [WHATSAPP] | "¿Querés conocer los lotes disponibles? Escribinos SANTANÍ por WhatsApp y te enviamos las opciones y sus cuotas." |
+
+La voz dura unos 36 s a ritmo comercial. Los 42 s entran en el rango de 30–45.
+
+## Pendientes actualizados
+1. `santani.kmz` (escenas 2, 3 y 6).
+2. **Grabación de pantalla del Tour** o capturas de la ficha (escena 7).
+3. Número de WhatsApp. ¿El +595 972 330 000 es WhatsApp?
+4. Logo PNG, imagen principal y capturas de Google Earth.
+5. Voz (grabada, IA o sin voz) y música.
+6. ¿Link del Tour en pantalla? El video no es clickeable; recomiendo que lo envíe el WhatsApp como respuesta automática a "SANTANÍ".
