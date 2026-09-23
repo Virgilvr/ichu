@@ -12,6 +12,6 @@ Fuente editable: `src/datos.json` → `locucion`.
 | 20,1 – 23,8 | Planes de hasta 130 meses, u opción contado. | HASTA 130 MESES · OPCIÓN CONTADO |
 | 24,2 – 28,3 | A unos 7 minutos del centro de Santaní. | Cerca del almacén Ka'avo · Aprox. 7 min. del centro de Santaní |
 | 28,6 – 33,8 | En el Tour Virtual elegís tu lote y ves su superficie, cuota y precio contado. | ELEGÍ TU LOTE EN EL TOUR VIRTUAL (demo) |
-| 34,2 – 39,6 | Escribinos SANTANÍ por WhatsApp y te enviamos los lotes disponibles y sus cuotas. | ESCRIBINOS · SANTANÍ · POR WHATSAPP · [WHATSAPP] |
+| 34,2 – 39,6 | ¿Querés conocer los lotes disponibles? Escribinos SANTANÍ por WhatsApp. | ¿QUERÉS CONOCER LOS LOTES DISPONIBLES? → ESCRIBINOS · SANTANÍ · Te enviamos los lotes disponibles y sus cuotas. · Adolfo Castillo \| Asesor Inmobiliario · WhatsApp: +595 976 557 380 |
 
 **Grabación:** celular en habitación sin eco, a 15 cm de la boca, un archivo por frase o uno continuo. Exportar como `public/audio/voz.mp3` y poner `"voz": "audio/voz.mp3"` en `src/datos.json`.

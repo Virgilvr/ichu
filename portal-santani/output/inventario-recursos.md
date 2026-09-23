@@ -15,4 +15,4 @@
 | Locución | — | ❌ Falta | `public/audio/voz.mp3` |
 | Música | — | ❌ Falta | `public/audio/musica.mp3` |
 | Grabación del Tour | — | ⚪ Opcional | Reemplaza la simulación del celular |
-| Número WhatsApp | — | ❌ Falta | Hoy: `[WHATSAPP]` |
+| Número WhatsApp | `src/datos.json` | ✅ +595 976 557 380 (Adolfo Castillo, Asesor Inmobiliario) | CTA |

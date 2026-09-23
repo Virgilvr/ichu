@@ -14,7 +14,8 @@ const todo = [...textos, ...D.locucion.map((l) => l.texto)].join(' | ');
 
 // 1. Datos verificados que deben aparecer
 const requeridos = ['650', '360 m²', '200.000', '130 MESES', 'CONTADO', 'SANTANÍ', 'WHATSAPP', 'Cada lote tiene su propia cuota'];
-for (const r of requeridos) if (!todo.includes(r)) errores.push(`Falta en pantalla/locución: "${r}"`);
+const todoCta = `${todo} | WhatsApp: ${D.whatsapp} | ${D.asesor?.nombre ?? ''}`.toUpperCase();
+for (const r of requeridos) if (!todoCta.includes(r.toUpperCase())) errores.push(`Falta en pantalla/locución: "${r}"`);
 
 // 2. Montos: solo se permite Gs. 200.000 (cuota "desde"); nada de valores por lote
 const montos = [...todo.matchAll(/Gs\.?\s*([\d.]+)/g)].map((m) => m[1]);
@@ -41,6 +42,7 @@ if (D.tour.grabacion && !existe(D.tour.grabacion)) errores.push(`Grabación del 
 if (D.marca.logo && !existe(D.marca.logo)) errores.push(`Logo no encontrado: public/${D.marca.logo}`);
 if (!D.marca.logo) avisos.push('Sin logo de Trebol Loteadora: se muestra solo texto.');
 if (D.whatsapp.includes('[')) avisos.push('WhatsApp sin número real: se muestra el marcador [WHATSAPP].');
+if (!/^\+595 9\d{2} \d{3} \d{3}$/.test(D.whatsapp) && !D.whatsapp.includes('[')) errores.push(`Formato de WhatsApp inesperado: ${D.whatsapp}`);
 
 // 6. Duración
 const total = D.escenas.reduce((a, e) => a + e.dur, 0);

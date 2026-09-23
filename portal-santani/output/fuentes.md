@@ -17,3 +17,4 @@
 | Link Google Maps | Ruta hasta −24.6671, −56.4653 (junto a Ka'avo, no es el predio) | maps.app.goo.gl/LqQsMB7dCeEpfBq96 | — |
 
 **No usado a propósito:** disponibilidad (varía), valores de lotes puntuales (Mz 8 y 14), seña, atributos (agua, luz, plaza) hasta confirmación.
+| WhatsApp / asesor | +595 976 557 380 · Adolfo Castillo, Asesor Inmobiliario | Dato del cliente | 23/09/2026 |

@@ -3,7 +3,7 @@
   "fps": 30,
   "proyecto": "PORTAL DE SANTANÍ",
   "loteadora": "Trebol Loteadora",
-  "whatsapp": "[WHATSAPP]",
+  "whatsapp": "+595 976 557 380",
   "palabraClave": "SANTANÍ",
   "creditoImagen": "Imágenes satelitales: Esri, Maxar, Earthstar Geographics · Datos viales © OpenStreetMap",
   "distancias": {
@@ -90,10 +90,9 @@
       "id": "cta",
       "dur": 6.0,
       "textos": [
-        "¿QUERÉS VER LOS LOTES DISPONIBLES?",
+        "¿QUERÉS CONOCER LOS LOTES DISPONIBLES?",
         "ESCRIBINOS",
         "SANTANÍ",
-        "POR WHATSAPP",
         "Te enviamos los lotes disponibles y sus cuotas."
       ]
     }
@@ -137,7 +136,7 @@
     {
       "desde": 34.2,
       "hasta": 39.6,
-      "texto": "Escribinos SANTANÍ por WhatsApp y te enviamos los lotes disponibles y sus cuotas."
+      "texto": "¿Querés conocer los lotes disponibles? Escribinos SANTANÍ por WhatsApp."
     }
   ],
   "audio": {
@@ -175,5 +174,9 @@
     "blanco": "#FFFFFF",
     "lotes": "#F7C948",
     "perimetro": "#FFFFFF"
+  },
+  "asesor": {
+    "nombre": "Adolfo Castillo",
+    "cargo": "Asesor Inmobiliario"
   }
 }

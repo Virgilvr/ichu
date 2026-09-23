@@ -192,29 +192,53 @@ const Burbuja: React.FC<{entra: number}> = ({entra}) => {
 };
 
 export const Cta: React.FC = () => {
-  const [pregunta, escribinos, , porWa, envio] = esc('cta').textos;
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const [pregunta, escribinos, , envio] = esc('cta').textos;
   const t2 = s(1.7);
+  const pTarjeta = spring({frame: f - (t2 + 34), fps, config: {damping: 15, stiffness: 150}});
   return (
     <AbsoluteFill>
-      <Titular entra={0} sale={t2} y={620} size={96} desde="zoom">
+      <Titular entra={0} sale={t2} y={600} size={92} desde="zoom">
         {pregunta}
       </Titular>
-      <Titular entra={t2} y={400} size={34} peso={700} color="rgba(255,255,255,.85)">
+      <Titular entra={t2} y={330} size={34} peso={700} color="rgba(255,255,255,.85)">
         {D.marca.logo ? <Img src={staticFile(D.marca.logo)} style={{height: 110, objectFit: 'contain'}} /> : D.loteadora.toUpperCase()}
       </Titular>
-      <Titular entra={t2} y={560} size={110}>
+      <Titular entra={t2} y={470} size={110}>
         {escribinos}
       </Titular>
-      <Burbuja entra={t2 + 6} />
-      <Titular entra={t2 + 26} y={1010} size={84} color="#25D366" style={{textShadow: '0 4px 14px rgba(0,0,0,.7)'}}>
-        {porWa}
-      </Titular>
-      <Titular entra={t2 + 40} y={1130} size={44} peso={600} ancho={880}>
+      <div style={{position: 'absolute', left: 0, right: 0, top: -90, bottom: 0}}>
+        <Burbuja entra={t2 + 6} />
+      </div>
+      <Titular entra={t2 + 26} y={920} size={42} peso={600} ancho={880}>
         {envio}
       </Titular>
-      <Titular entra={t2 + 52} y={1290} size={58} peso={900} fondo={C.blanco} color={C.verdeOscuro}>
-        {D.whatsapp}
-      </Titular>
+      <div
+        style={{
+          position: 'absolute',
+          left: 110,
+          right: 110,
+          top: 1060,
+          padding: '26px 24px',
+          borderRadius: 28,
+          background: C.blanco,
+          textAlign: 'center',
+          fontFamily: 'Montserrat',
+          color: C.verdeOscuro,
+          opacity: Math.min(1, pTarjeta * 1.4),
+          transform: `translateY(${(1 - pTarjeta) * 80}px)`,
+          boxShadow: '0 20px 50px rgba(0,0,0,.45)',
+        }}
+      >
+        <div style={{fontWeight: 800, fontSize: 40}}>
+          {D.asesor.nombre} <span style={{color: '#8a9a91', fontWeight: 600}}>|</span> {D.asesor.cargo}
+        </div>
+        <div style={{marginTop: 14, background: '#25D366', color: C.blanco, padding: '10px 18px 14px', borderRadius: 16, whiteSpace: 'nowrap'}}>
+          <div style={{fontWeight: 700, fontSize: 30, letterSpacing: 1}}>WhatsApp:</div>
+          <div style={{fontWeight: 900, fontSize: 60, lineHeight: 1.05}}>{D.whatsapp}</div>
+        </div>
+      </div>
     </AbsoluteFill>
   );
 };

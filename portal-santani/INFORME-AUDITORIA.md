@@ -191,3 +191,10 @@ En la demo del Tour, el lote resaltado es una celda real del KMZ, cerca del cent
 - **QC automático** (`npm run qc`): verifica los datos obligatorios, bloquea montos distintos de Gs. 200.000, "700 m" y disponibilidad inventada, controla duración y archivos, y genera `output/subtitulos.srt`.
 - Estado del QC: **sin errores**. Avisos: faltan voz, música, logo y número de WhatsApp.
 - No se renderizó el video. Solo se generaron fotogramas sueltos para control visual.
+
+---
+
+# ACTUALIZACIÓN 3 — Corrección final y render
+- CTA: "¿QUERÉS CONOCER LOS LOTES DISPONIBLES?" → ESCRIBINOS "SANTANÍ" → Adolfo Castillo | Asesor Inmobiliario · WhatsApp: +595 976 557 380.
+- Render final en `output/`: MP4 principal, MP4 subtitulado y portadas 9:16 y 4:5.
+- El video sale **sin locución ni música** porque no se entregaron archivos de audio. Lleva solo los efectos de sonido. Cuando llegue `voz.mp3`, se re-renderiza con `npm run render:todo`.
