@@ -18,7 +18,7 @@ OUT.mkdir(exist_ok=True)
 # Diseño de voz: formato nativo de VoxCPM2 "(descripción)texto". Descripción en español
 # para anclar el idioma y el acento latinoamericano.
 DESCRIPCION = (
-    'Hombre latinoamericano de unos 35 años, hablante nativo de español, acento neutro rioplatense suave, '
+    'Hombre latinoamericano de unos 35 años, hablante nativo de español, acento latinoamericano neutro, '
     'voz cálida, grave y confiable, locutor comercial de inmobiliaria, sonrisa en la voz, ritmo natural y pausado'
 )
 
