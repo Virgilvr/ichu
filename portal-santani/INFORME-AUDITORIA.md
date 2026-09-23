@@ -147,3 +147,47 @@ La voz dura unos 36 s a ritmo comercial. Los 42 s entran en el rango de 30–45.
 4. Logo PNG, imagen principal y capturas de Google Earth.
 5. Voz (grabada, IA o sin voz) y música.
 6. ¿Link del Tour en pantalla? El video no es clickeable; recomiendo que lo envíe el WhatsApp como respuesta automática a "SANTANÍ".
+
+---
+
+# ACTUALIZACIÓN 2 — KMZ incorporado · storyboard final · proyecto listo para render
+
+## Datos geográficos de `santani.kmz` (verificados)
+- 3 capas de líneas: **POLIGONO** (perímetro, 4 lados, 2.442 m), **CALLE** (84 segmentos), **LOTES** (392 segmentos).
+- Predio de **≈ 37,2 ha**, girado 45°. Centro: −24.67575, −56.48825.
+- Lotes típicos de **12,3 × 30,2 m ≈ 369 m²**, coherente con "desde 360 m²".
+- Hay dos manzanas sin líneas de lote. No se les pone nombre (plaza, área verde, etc.): el KMZ no lo dice.
+- El KMZ **calza exacto** sobre la imagen satelital: los bordes coinciden con los límites del terreno.
+- El KMZ no permite contar lotes. Las líneas no siempre cierran polígonos, así que el "650" sale del Tour Virtual.
+
+## ⚠️ Hallazgos que cambian textos del brief
+| Dato del brief | Medición | Qué dejé en el Reel |
+|---|---|---|
+| A 700 m de la Ruta 3 | **1.374 m** en línea recta, del borde del KMZ al eje de la Ruta PY03 (OpenStreetMap) | "A APROX. 1,4 km DE LA RUTA 3" |
+| A 2 min del almacén Ka'avo | Ka'avo (estación Puma/restaurante sobre Ruta 3, OSM) a **2,4 km en línea recta**. 2 min implicaría ≥72 km/h | "Cerca del almacén Ka'avo" |
+| Aprox. 7 min del centro | Centro de San Estanislao a 4,4 km en línea recta: coherente | Se mantiene |
+| Link de Google Maps | Apunta a −24.6671, −56.4653, **junto a Ka'avo, no al predio** (2,1 km de distancia) | Solo referencia |
+
+Si el "700 m" se mide desde otro punto (por ejemplo, un acceso), pasame el dato y lo cambio en `src/datos.json`. El control de calidad bloquea "700 m" mientras contradiga el KMZ.
+
+## Storyboard final (40 s · la vista aérea y el proyecto como protagonistas)
+Vista previa: `output/storyboard-preview.png`. Una sola cámara aérea continua recorre todo el Reel: zoom, giro y paneo sin cortes.
+
+| # | Tiempo | Cámara aérea | Gráficos del KMZ | Texto |
+|---|---|---|---|---|
+| 1 | 0–3,5 | Satélite regional de Santaní, zoom rápido | — | ¿BUSCÁS UN TERRENO EN SANTANÍ? → CONOCÉ PORTAL DE SANTANÍ |
+| 2 | 3,5–8,5 | Acercamiento al predio con la Ruta 3 en cuadro | Pin, Ruta 3 (OSM), línea de distancia "≈1,4 km" | PORTAL DE SANTANÍ · A APROX. 1,4 km DE LA RUTA 3 |
+| 3 | 8,5–15 | Zoom al predio y giro de 45° (manzanas verticales) | Perímetro que se dibuja → calles → barrido de líneas de lote | 650 LOTES (contador) · DESDE 360 m² |
+| 4 | 15–20 | Deriva lenta sobre los lotes | Trazado completo, mapa oscurecido | CUOTAS DESDE **Gs. 200.000** + "Cada lote tiene su propia cuota y condición comercial." |
+| 5 | 20–24 | Paneo sobre el loteamiento | Trazado completo | HASTA 130 MESES · OPCIÓN CONTADO |
+| 6 | 24–28,5 | Alejamiento hasta Santaní | Predio, Ruta 3, Ka'avo, centro, con líneas de conexión | Cerca del almacén Ka'avo · Aprox. 7 min. del centro de Santaní |
+| 7 | 28,5–34 (**5,5 s**) | Predio desenfocado de fondo | Celular: mapa real del KMZ → toque en un lote → ficha → SUPERFICIE / CUOTA / PLAZO / CONTADO resaltados → botón WhatsApp | ELEGÍ TU LOTE EN EL TOUR VIRTUAL · valores referenciales |
+| 8 | 34–40 | Alejamiento lento con fondo de marca | — | ESCRIBINOS · SANTANÍ (tipeado en burbuja) · POR WHATSAPP · Te enviamos los lotes disponibles y sus cuotas · [WHATSAPP] |
+
+En la demo del Tour, el lote resaltado es una celda real del KMZ, cerca del centro. Los valores de la ficha van difuminados y no se muestra ningún número de lote.
+
+## Estado del proyecto
+- **Remotion 4** en `portal-santani/`. Textos, tiempos, audio, marca y WhatsApp se editan en un solo archivo: `src/datos.json`.
+- **QC automático** (`npm run qc`): verifica los datos obligatorios, bloquea montos distintos de Gs. 200.000, "700 m" y disponibilidad inventada, controla duración y archivos, y genera `output/subtitulos.srt`.
+- Estado del QC: **sin errores**. Avisos: faltan voz, música, logo y número de WhatsApp.
+- No se renderizó el video. Solo se generaron fotogramas sueltos para control visual.

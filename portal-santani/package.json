@@ -1,0 +1,25 @@
+{
+  "name": "portal-santani-reel",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Reel publicitario Portal de Santaní (Remotion)",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "geo": "python3 geo/procesar_kmz.py",
+    "sfx": "python3 scripts/generar_sfx.py",
+    "qc": "node scripts/qc.mjs",
+    "render:voz": "remotion render src/index.ts Reel output/portal-santani-reel.mp4",
+    "render:sub": "remotion render src/index.ts ReelSubtitulado output/portal-santani-reel-subtitulado.mp4",
+    "render:portada": "remotion still src/index.ts Portada output/portada-instagram-1080x1920.png && remotion still src/index.ts PortadaFeed output/portada-instagram-1080x1350.png",
+    "render:todo": "npm run qc && npm run render:voz && npm run render:sub && npm run render:portada"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^5.3.0",
+    "@remotion/cli": "^4.0.527",
+    "@types/react": "^19.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.527",
+    "typescript": "^7.0.2"
+  }
+}

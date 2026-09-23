@@ -1,0 +1,179 @@
+{
+  "_nota": "ÚNICA fuente de textos, tiempos y datos del Reel. Editá acá y volvé a renderizar. Tiempos en segundos.",
+  "fps": 30,
+  "proyecto": "PORTAL DE SANTANÍ",
+  "loteadora": "Trebol Loteadora",
+  "whatsapp": "[WHATSAPP]",
+  "palabraClave": "SANTANÍ",
+  "creditoImagen": "Imágenes satelitales: Esri, Maxar, Earthstar Geographics · Datos viales © OpenStreetMap",
+  "distancias": {
+    "ruta3": {
+      "texto": "A APROX. 1,4 km DE LA RUTA 3",
+      "fuente": "Medido: borde del KMZ → eje Ruta PY03 (OSM), 1.374 m en línea recta",
+      "verificado": true,
+      "textoCliente": "A 700 m DE LA RUTA 3",
+      "nota": "El dato del cliente (700 m) NO coincide con el KMZ ni con OSM",
+      "etiquetaMapa": "≈ 1,4 km"
+    },
+    "kaavo": {
+      "texto": "Cerca del almacén Ka'avo",
+      "fuente": "Nodo OSM Ka'avo a 2,4 km en línea recta del borde del proyecto",
+      "verificado": true,
+      "textoCliente": "A 2 min. del almacén Ka'avo",
+      "nota": "2 min para ≥2,4 km implica ≥72 km/h: no verificable"
+    },
+    "centro": {
+      "texto": "Aprox. 7 min. del centro de Santaní",
+      "fuente": "Centro San Estanislao (OSM) a 4,4 km en línea recta del borde",
+      "verificado": true
+    }
+  },
+  "escenas": [
+    {
+      "id": "gancho",
+      "dur": 3.5,
+      "textos": [
+        "¿BUSCÁS UN TERRENO EN SANTANÍ?",
+        "CONOCÉ PORTAL DE SANTANÍ"
+      ]
+    },
+    {
+      "id": "ubicacion",
+      "dur": 5.0,
+      "textos": [
+        "PORTAL DE SANTANÍ",
+        "@ruta3"
+      ]
+    },
+    {
+      "id": "proyecto",
+      "dur": 6.5,
+      "textos": [
+        "650 LOTES",
+        "DESDE 360 m²"
+      ]
+    },
+    {
+      "id": "precio",
+      "dur": 5.0,
+      "textos": [
+        "CUOTAS DESDE",
+        "Gs. 200.000",
+        "Cada lote tiene su propia cuota y condición comercial."
+      ]
+    },
+    {
+      "id": "financiacion",
+      "dur": 4.0,
+      "textos": [
+        "HASTA 130 MESES",
+        "OPCIÓN CONTADO"
+      ]
+    },
+    {
+      "id": "cercania",
+      "dur": 4.5,
+      "textos": [
+        "@kaavo",
+        "@centro"
+      ]
+    },
+    {
+      "id": "tour",
+      "dur": 5.5,
+      "textos": [
+        "ELEGÍ TU LOTE EN EL TOUR VIRTUAL",
+        "Valores referenciales. Cada lote tiene su propia cuota y condición comercial."
+      ]
+    },
+    {
+      "id": "cta",
+      "dur": 6.0,
+      "textos": [
+        "¿QUERÉS VER LOS LOTES DISPONIBLES?",
+        "ESCRIBINOS",
+        "SANTANÍ",
+        "POR WHATSAPP",
+        "Te enviamos los lotes disponibles y sus cuotas."
+      ]
+    }
+  ],
+  "locucion": [
+    {
+      "desde": 0.2,
+      "hasta": 3.3,
+      "texto": "¿Buscás un terreno en Santaní? Conocé Portal de Santaní."
+    },
+    {
+      "desde": 3.7,
+      "hasta": 8.2,
+      "texto": "Un loteamiento en San Estanislao, cerca de la Ruta 3."
+    },
+    {
+      "desde": 8.8,
+      "hasta": 14.6,
+      "texto": "650 lotes, con terrenos desde 360 metros cuadrados."
+    },
+    {
+      "desde": 15.2,
+      "hasta": 19.7,
+      "texto": "Cuotas desde 200 mil guaraníes. Cada lote tiene su propia cuota."
+    },
+    {
+      "desde": 20.1,
+      "hasta": 23.8,
+      "texto": "Planes de hasta 130 meses, u opción contado."
+    },
+    {
+      "desde": 24.2,
+      "hasta": 28.3,
+      "texto": "A unos 7 minutos del centro de Santaní."
+    },
+    {
+      "desde": 28.6,
+      "hasta": 33.8,
+      "texto": "En el Tour Virtual elegís tu lote y ves su superficie, cuota y precio contado."
+    },
+    {
+      "desde": 34.2,
+      "hasta": 39.6,
+      "texto": "Escribinos SANTANÍ por WhatsApp y te enviamos los lotes disponibles y sus cuotas."
+    }
+  ],
+  "audio": {
+    "_nota": "Rutas relativas a public/. null = no se usa. La música se atenúa automáticamente bajo la voz.",
+    "voz": null,
+    "musica": null,
+    "volumenMusica": 0.9,
+    "volumenMusicaBajoVoz": 0.22,
+    "sfx": true
+  },
+  "tour": {
+    "_nota": "grabacion = ruta en public/ de un video vertical real del Tour (reemplaza la simulación).",
+    "grabacion": null,
+    "campos": [
+      "ESTADO",
+      "MANZANA",
+      "SUPERFICIE",
+      "PLAZO",
+      "CUOTA",
+      "CONTADO"
+    ],
+    "resaltar": [
+      "SUPERFICIE",
+      "CUOTA",
+      "PLAZO",
+      "CONTADO"
+    ]
+  },
+  "marca": {
+    "_nota": "Paleta provisoria hasta recibir logo/manual. logo = ruta en public/ (PNG transparente).",
+    "logo": null,
+    "verde": "#0E7A3E",
+    "verdeOscuro": "#062A1B",
+    "acento": "#F7C948",
+    "blanco": "#FFFFFF",
+    "lotes": "#F7C948",
+    "perimetro": "#FFFFFF"
+  }
+}
