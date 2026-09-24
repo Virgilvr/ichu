@@ -150,5 +150,196 @@
       "hasta": 60.0,
       "texto": "Escribinos por WhatsApp."
     }
+  ],
+  "subsDestacados": [
+    {
+      "desde": 0.75,
+      "hasta": 4.01,
+      "lineas": [
+        "Hay lugares que",
+        "no solamente se visitan…"
+      ]
+    },
+    {
+      "desde": 4.19,
+      "hasta": 5.19,
+      "lineas": [
+        "se sienten."
+      ]
+    },
+    {
+      "desde": 6.99,
+      "hasta": 7.91,
+      "lineas": [
+        "Santaní…"
+      ]
+    },
+    {
+      "desde": 7.93,
+      "hasta": 10.19,
+      "lineas": [
+        "una ciudad con historia,",
+        "tradición"
+      ]
+    },
+    {
+      "desde": 10.21,
+      "hasta": 12.35,
+      "lineas": [
+        "y un encanto",
+        "que permanece."
+      ]
+    },
+    {
+      "desde": 13.01,
+      "hasta": 14.95,
+      "lineas": [
+        "Cuenta la leyenda",
+        "que quien se sumerge"
+      ]
+    },
+    {
+      "desde": 14.97,
+      "hasta": 16.59,
+      "lineas": [
+        "en las aguas",
+        "del Tapiracuái…"
+      ]
+    },
+    {
+      "desde": 16.61,
+      "hasta": 17.59,
+      "lineas": [
+        "queda hechizado"
+      ]
+    },
+    {
+      "desde": 17.61,
+      "hasta": 19.59,
+      "lineas": [
+        "y siempre quiere volver."
+      ]
+    },
+    {
+      "desde": 20.37,
+      "hasta": 22.25,
+      "lineas": [
+        "Y quizás sea por eso"
+      ]
+    },
+    {
+      "desde": 22.27,
+      "hasta": 24.37,
+      "lineas": [
+        "que quienes conocen",
+        "Santaní…"
+      ]
+    },
+    {
+      "desde": 24.39,
+      "hasta": 25.87,
+      "lineas": [
+        "siempre quieren",
+        "regresar."
+      ]
+    },
+    {
+      "desde": 26.6,
+      "hasta": 30.06,
+      "lineas": [
+        "Y hoy, acá comienza",
+        "una nueva historia…"
+      ]
+    },
+    {
+      "desde": 30.34,
+      "hasta": 31.62,
+      "lineas": [
+        "Portal de Santaní."
+      ]
+    },
+    {
+      "desde": 32.95,
+      "hasta": 35.49,
+      "lineas": [
+        "650 lotes,"
+      ]
+    },
+    {
+      "desde": 35.51,
+      "hasta": 37.99,
+      "lineas": [
+        "desde 360 m²."
+      ]
+    },
+    {
+      "desde": 38.57,
+      "hasta": 41.63,
+      "lineas": [
+        "Cuotas desde",
+        "200 mil guaraníes,"
+      ]
+    },
+    {
+      "desde": 41.65,
+      "hasta": 43.17,
+      "lineas": [
+        "hasta 130 meses…"
+      ]
+    },
+    {
+      "desde": 43.19,
+      "hasta": 44.97,
+      "lineas": [
+        "o al contado."
+      ]
+    },
+    {
+      "desde": 45.95,
+      "hasta": 48.09,
+      "lineas": [
+        "Recorré el proyecto",
+        "y elegí tu lote"
+      ]
+    },
+    {
+      "desde": 48.11,
+      "hasta": 49.41,
+      "lineas": [
+        "en nuestro",
+        "Tour Virtual."
+      ]
+    },
+    {
+      "desde": 50.49,
+      "hasta": 52.31,
+      "lineas": [
+        "Portal de Santaní…"
+      ]
+    },
+    {
+      "desde": 52.33,
+      "hasta": 54.71,
+      "lineas": [
+        "un lugar para empezar",
+        "tu próxima historia."
+      ]
+    },
+    {
+      "desde": 55.47,
+      "hasta": 58.69,
+      "lineas": [
+        "¿Querés conocer",
+        "los lotes disponibles?"
+      ]
+    },
+    {
+      "desde": 58.87,
+      "hasta": 60.11,
+      "lineas": [
+        "Escribinos",
+        "por WhatsApp."
+      ]
+    }
   ]
 }

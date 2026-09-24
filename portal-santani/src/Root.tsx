@@ -29,6 +29,7 @@ export const Root: React.FC = () => (
     <Composition id="V2PruebaRecorrido" component={PruebaRecorrido} durationInFrames={DUR_PRUEBA} fps={FPS2} width={W} height={H} />
     <Composition id="ReelV3" component={ReelV3} durationInFrames={DUR_V3} fps={30} width={W} height={H} defaultProps={{subtitulos: false}} />
     <Composition id="ReelV3Subtitulado" component={ReelV3} durationInFrames={DUR_V3} fps={30} width={W} height={H} defaultProps={{subtitulos: true}} />
+    <Composition id="ReelV3SubDestacado" component={ReelV3} durationInFrames={DUR_V3} fps={30} width={W} height={H} defaultProps={{subtitulos: true, destacados: true}} />
     <Still id="PortadaFeed" component={Portada} width={1080} height={1350} defaultProps={{feed: true}} />
   </>
 );

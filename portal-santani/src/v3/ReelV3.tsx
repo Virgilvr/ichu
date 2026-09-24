@@ -392,6 +392,31 @@ const Subtitulos: React.FC = () => {
   );
 };
 
+// Subtítulos "destacados": cápsula blanca translúcida, texto dorado grueso, bloques cortos
+// sincronizados por palabra (datos.subsDestacados, generado con v2/voz/subtitulos_v3.py)
+const ORO = '#B07A00';
+const SubtitulosDestacados: React.FC = () => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const t = f / FPS;
+  const c = datos.subsDestacados.find((x) => t >= x.desde && t <= x.hasta);
+  if (!c) return null;
+  const p = spring({frame: f - Math.round(c.desde * FPS), fps, config: {damping: 14, stiffness: 220}});
+  const out = interpolate(t, [c.hasta - 0.08, c.hasta], [1, 0], clamp);
+  const dos = c.lineas.length > 1;
+  return (
+    <div style={{position: 'absolute', left: 70, right: 70, top: 1372, display: 'flex', justifyContent: 'center', opacity: Math.min(1, p * 1.6) * out}}>
+      <div style={{background: 'rgba(255,255,255,.88)', borderRadius: dos ? 40 : 70, padding: dos ? '16px 38px 18px' : '14px 42px 16px', boxShadow: '0 8px 28px rgba(0,0,0,.22), 0 2px 6px rgba(0,0,0,.12)', transform: `scale(${0.88 + 0.12 * p})`, maxWidth: 940, textAlign: 'center'}}>
+        {c.lineas.map((l) => (
+          <div key={l} style={{fontFamily: 'Montserrat', fontWeight: 900, fontSize: 54, lineHeight: 1.16, color: ORO, WebkitTextStroke: '1.5px #6E4B00', paintOrder: 'stroke fill', textShadow: '0 1px 0 rgba(255,255,255,.6)', letterSpacing: 0.3, whiteSpace: 'nowrap'}}>
+            {l}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
 // música: baja suave bajo la voz, sube en los espacios y sostiene la placa final
 const volMusica = (f: number) => {
   const t = f / FPS;
@@ -404,7 +429,7 @@ const volMusica = (f: number) => {
 
 const CORTES = [6.4, 20.6, 26.4, 31.4, 35.6, 38.6, 45.6, 50.4, 55.3];
 
-export const ReelV3: React.FC<{subtitulos: boolean}> = ({subtitulos}) => {
+export const ReelV3: React.FC<{subtitulos: boolean; destacados?: boolean}> = ({subtitulos, destacados = false}) => {
   const f = useCurrentFrame();
   const negro = interpolate(f, [DUR_V3 - s(1.0), DUR_V3 - 1], [0, 1], clamp);
   const abre = interpolate(f, [0, s(0.8)], [1, 0], clamp);
@@ -459,7 +484,7 @@ export const ReelV3: React.FC<{subtitulos: boolean}> = ({subtitulos}) => {
       <Sequence from={s(30.3)} durationInFrames={s(1.5)}>
         <TituloPortal />
       </Sequence>
-      {subtitulos ? <Subtitulos /> : null}
+      {subtitulos ? destacados ? <SubtitulosDestacados /> : <Subtitulos /> : null}
       <AbsoluteFill style={{background: '#000', opacity: Math.max(negro, abre), pointerEvents: 'none'}} />
 
       <Sequence from={s(datos.vo)}>
