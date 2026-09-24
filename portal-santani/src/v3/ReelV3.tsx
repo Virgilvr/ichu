@@ -331,7 +331,7 @@ const Placa: React.FC = () => {
   const b = sp(0.35);
   const c = sp(3.5); // "Escribinos por WhatsApp" (58,9 s)
   const d = sp(3.8);
-  const e = sp(1.0);
+  const e = sp(0.9);
   const z = interpolate(f, [0, dur('placa')], [1.12, 1.0], clamp);
   const [x0, y0, x1, y1] = SAT.L2.rel;
   return (
@@ -340,18 +340,23 @@ const Placa: React.FC = () => {
         <Img src={staticFile(SAT.L2.file)} style={{position: 'absolute', left: 540 - (x1 - x0) / 2.6 / 2, top: 960 - (y1 - y0) / 2.6 / 2, width: (x1 - x0) / 2.6, height: (y1 - y0) / 2.6, transform: `rotate(-45deg) scale(${z})`, filter: 'blur(3px) saturate(1.1)'}} />
         <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 45%, rgba(6,42,27,.72) 0%, rgba(6,42,27,.93) 70%)'}} />
       </AbsoluteFill>
-      <div style={{position: 'absolute', left: 0, right: 0, top: 300, textAlign: 'center', fontFamily: 'Montserrat', fontWeight: 900, fontSize: 96, color: '#fff', lineHeight: 1.02, opacity: a, transform: `translateY(${(1 - a) * 40}px)`, textShadow: '0 6px 24px rgba(0,0,0,.5)'}}>
+      {/* 1 · proyecto y mensaje */}
+      <div style={{position: 'absolute', left: 0, right: 0, top: 250, textAlign: 'center', fontFamily: 'Montserrat', fontWeight: 900, fontSize: 92, color: '#fff', lineHeight: 1.02, opacity: a, transform: `translateY(${(1 - a) * 40}px)`, textShadow: '0 6px 24px rgba(0,0,0,.5)'}}>
         PORTAL DE<br /><span style={{color: C.acento}}>SANTANÍ</span>
       </div>
-      <div style={{position: 'absolute', left: 70, right: 70, top: 580, textAlign: 'center', fontFamily: 'Montserrat', fontWeight: 800, fontSize: 50, color: '#fff', lineHeight: 1.2, opacity: b, transform: `translateY(${(1 - b) * 40}px)`}}>
+      <div style={{position: 'absolute', left: 80, right: 80, top: 500, textAlign: 'center', fontFamily: 'Montserrat', fontWeight: 800, fontSize: 48, color: '#fff', lineHeight: 1.2, opacity: b, transform: `translateY(${(1 - b) * 40}px)`}}>
         ¿QUERÉS CONOCER LOS LOTES DISPONIBLES?
       </div>
-      <div style={{position: 'absolute', left: 90, right: 90, top: 820, borderRadius: 30, background: '#25D366', boxShadow: '0 18px 50px rgba(0,0,0,.45)', padding: '22px 10px 26px', textAlign: 'center', fontFamily: 'Montserrat', color: '#fff', opacity: c, transform: `scale(${0.9 + 0.1 * c})`}}>
-        <div style={{fontWeight: 800, fontSize: 40, letterSpacing: 2}}>ESCRIBINOS POR WHATSAPP</div>
-        <div style={{fontWeight: 900, fontSize: 76, lineHeight: 1.1, marginTop: 4, opacity: d}}>+595 976 557 380</div>
+      {/* 2 · asesor independiente (sin logos de terceros cerca) */}
+      <div style={{position: 'absolute', left: 0, right: 0, top: 690, textAlign: 'center', fontFamily: 'Montserrat', opacity: e, transform: `translateY(${(1 - e) * 30}px)`}}>
+        <div style={{width: 120, height: 4, background: C.acento, borderRadius: 2, margin: '0 auto 26px'}} />
+        <div style={{fontWeight: 800, fontSize: 74, color: '#fff', lineHeight: 1.05, textShadow: '0 4px 18px rgba(0,0,0,.45)'}}>Adolfo Castillo</div>
+        <div style={{fontWeight: 700, fontSize: 34, color: C.acento, letterSpacing: 6, marginTop: 10}}>ASESOR INMOBILIARIO</div>
       </div>
-      <div style={{position: 'absolute', left: 540 - 190, top: 1130, width: 380, background: '#fff', borderRadius: 28, padding: '22px 30px', opacity: e, transform: `translateY(${(1 - e) * 30}px)`, boxShadow: '0 12px 36px rgba(0,0,0,.35)'}}>
-        <Img src={staticFile('v2/logo_trebol.png')} style={{width: '100%'}} />
+      {/* 3 · WhatsApp */}
+      <div style={{position: 'absolute', left: 100, right: 100, top: 960, borderRadius: 30, background: '#25D366', boxShadow: '0 18px 50px rgba(0,0,0,.45)', padding: '20px 10px 24px', textAlign: 'center', fontFamily: 'Montserrat', color: '#fff', opacity: c, transform: `scale(${0.9 + 0.1 * c})`}}>
+        <div style={{fontWeight: 800, fontSize: 36, letterSpacing: 2}}>ESCRIBINOS POR WHATSAPP</div>
+        <div style={{fontWeight: 900, fontSize: 70, lineHeight: 1.1, marginTop: 4, opacity: d}}>+595 976 557 380</div>
       </div>
     </Entra>
   );
