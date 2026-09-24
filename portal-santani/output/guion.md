@@ -1,17 +1,21 @@
-# Guion — Reel Portal de Santaní (40 s · 9:16)
+# Guion de locución · Reel Portal de Santaní (42,5 s · 9:16)
 
-Tiempos exactos para grabar la locución. Leer con ritmo comercial, natural, sin apurar.
-Fuente editable: `src/datos.json` → `locucion`.
+Voz: VoxCPM2 (openbmb/VoxCPM2, licencia Apache 2.0), voz masculina **diseñada** (no clonada de ninguna persona):
+"hombre latinoamericano de unos 35 años, español neutro, voz cálida, grave y confiable, locutor comercial".
+Todas las frases usan la muestra aprobada (`voz/muestras/muestra_voxcpm2_1.wav`) como referencia, para que sea la misma voz.
+Verificado con Whisper small (transcripción automática en español): texto completo, sin cortes, con voseo.
 
-| Tiempo | Locución | En pantalla |
-|---|---|---|
-| 0,2 – 3,3 | ¿Buscás un terreno en Santaní? Conocé Portal de Santaní. | ¿BUSCÁS UN TERRENO EN SANTANÍ? → CONOCÉ PORTAL DE SANTANÍ |
-| 3,7 – 8,2 | Un loteamiento en San Estanislao, cerca de la Ruta 3. | PORTAL DE SANTANÍ · A APROX. 1,4 km DE LA RUTA 3 |
-| 8,8 – 14,6 | 650 lotes, con terrenos desde 360 metros cuadrados. | 650 LOTES · DESDE 360 m² |
-| 15,2 – 19,7 | Cuotas desde 200 mil guaraníes. Cada lote tiene su propia cuota. | CUOTAS DESDE Gs. 200.000 · Cada lote tiene su propia cuota y condición comercial. |
-| 20,1 – 23,8 | Planes de hasta 130 meses, u opción contado. | HASTA 130 MESES · OPCIÓN CONTADO |
-| 24,2 – 28,3 | A unos 7 minutos del centro de Santaní. | Cerca del almacén Ka'avo · Aprox. 7 min. del centro de Santaní |
-| 28,6 – 33,8 | En el Tour Virtual elegís tu lote y ves su superficie, cuota y precio contado. | ELEGÍ TU LOTE EN EL TOUR VIRTUAL (demo) |
-| 34,2 – 39,6 | ¿Querés conocer los lotes disponibles? Escribinos SANTANÍ por WhatsApp. | ¿QUERÉS CONOCER LOS LOTES DISPONIBLES? → ESCRIBINOS · SANTANÍ · Te enviamos los lotes disponibles y sus cuotas. · Adolfo Castillo \| Asesor Inmobiliario · WhatsApp: +595 976 557 380 |
+| Tiempo (s) | Locución |
+|---|---|
+| 0.30 – 1.66 | ¿Buscás un terreno en Santaní? |
+| 2.00 – 5.69 | Conocé Portal de Santaní, un nuevo loteamiento en San Estanislao, San Pedro. |
+| 8.80 – 12.30 | 650 lotes desde 360 metros cuadrados. |
+| 15.20 – 19.23 | Y lo mejor: cuotas desde 200 mil guaraníes, hasta 130 meses. |
+| 28.65 – 32.40 | Elegí tu lote y consultá toda la información directamente en nuestro Tour Virtual. |
+| 34.15 – 35.94 | ¿Querés conocer los lotes disponibles? |
+| 36.24 – 38.74 | Escribinos por WhatsApp y recibí toda la información. |
+| 39.04 – 41.33 | Adolfo Castillo, Asesor Inmobiliario. |
 
-**Grabación:** celular en habitación sin eco, a 15 cm de la boca, un archivo por frase o uno continuo. Exportar como `public/audio/voz.mp3` y poner `"voz": "audio/voz.mp3"` en `src/datos.json`.
+Música: pista instrumental original generada por código (`scripts/generar_musica.py`), 92 BPM, sin letra ni licencias de terceros.
+Mezcla: voz a ~-17 dBFS RMS; la música baja automáticamente ~13 dB mientras hay voz. Se mantienen los efectos de sonido.
+Subtítulos: `output/subtitulos.srt` (sincronizados con cada frase y partidos en bloques cortos).

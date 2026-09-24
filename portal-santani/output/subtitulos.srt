@@ -1,31 +1,51 @@
 1
-00:00:00,200 --> 00:00:03,300
-¿Buscás un terreno en Santaní? Conocé Portal de Santaní.
+00:00:00,300 --> 00:00:01,660
+¿Buscás un terreno en Santaní?
 
 2
-00:00:03,700 --> 00:00:08,200
-Un loteamiento en San Estanislao, cerca de la Ruta 3.
+00:00:02,000 --> 00:00:03,330
+Conocé Portal de Santaní,
 
 3
-00:00:08,800 --> 00:00:14,600
-650 lotes, con terrenos desde 360 metros cuadrados.
+00:00:03,330 --> 00:00:05,250
+un nuevo loteamiento en San Estanislao,
 
 4
-00:00:15,200 --> 00:00:19,700
-Cuotas desde 200 mil guaraníes. Cada lote tiene su propia cuota.
+00:00:05,250 --> 00:00:05,690
+San Pedro.
 
 5
-00:00:20,100 --> 00:00:23,800
-Planes de hasta 130 meses, u opción contado.
+00:00:08,800 --> 00:00:12,300
+650 lotes desde 360 metros cuadrados.
 
 6
-00:00:24,200 --> 00:00:28,300
-A unos 7 minutos del centro de Santaní.
+00:00:15,200 --> 00:00:15,650
+Y lo mejor:
 
 7
-00:00:28,600 --> 00:00:33,800
-En el Tour Virtual elegís tu lote y ves su superficie, cuota y precio contado.
+00:00:15,650 --> 00:00:17,740
+cuotas desde 200 mil guaraníes,
 
 8
-00:00:34,200 --> 00:00:39,600
-¿Querés conocer los lotes disponibles? Escribinos SANTANÍ por WhatsApp.
+00:00:17,740 --> 00:00:19,230
+hasta 130 meses.
+
+9
+00:00:28,650 --> 00:00:30,180
+Elegí tu lote y consultá toda
+
+10
+00:00:30,180 --> 00:00:32,400
+la información directamente en nuestro Tour Virtual.
+
+11
+00:00:34,150 --> 00:00:35,940
+¿Querés conocer los lotes disponibles?
+
+12
+00:00:36,240 --> 00:00:38,740
+Escribinos por WhatsApp y recibí toda la información.
+
+13
+00:00:39,040 --> 00:00:41,330
+Adolfo Castillo, Asesor Inmobiliario.

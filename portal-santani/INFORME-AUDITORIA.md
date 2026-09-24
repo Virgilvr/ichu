@@ -198,3 +198,12 @@ En la demo del Tour, el lote resaltado es una celda real del KMZ, cerca del cent
 - CTA: "¿QUERÉS CONOCER LOS LOTES DISPONIBLES?" → ESCRIBINOS "SANTANÍ" → Adolfo Castillo | Asesor Inmobiliario · WhatsApp: +595 976 557 380.
 - Render final en `output/`: MP4 principal, MP4 subtitulado y portadas 9:16 y 4:5.
 - El video sale **sin locución ni música** porque no se entregaron archivos de audio. Lleva solo los efectos de sonido. Cuando llegue `voz.mp3`, se re-renderiza con `npm run render:todo`.
+
+---
+
+# ACTUALIZACIÓN 4 — Versión con voz y música
+- Locución masculina VoxCPM2 (Apache 2.0) generada en este entorno, con la misma voz en todas las frases. Guion y tiempos en `output/guion.md`.
+- Música instrumental original y efectos de sonido. La voz queda siempre por encima: la música baja ~13 dB mientras se habla.
+- Subtítulos más grandes (46 px), partidos en bloques cortos y sincronizados con la voz.
+- Único cambio de tiempos: la escena final (CTA) pasa de 6 a 8,5 s para que entre "Adolfo Castillo, Asesor Inmobiliario". El video dura 42,5 s. Los datos y la estructura no cambian.
+- Entregables: `output/portal-santani-reel-voz.mp4` y `output/portal-santani-reel-voz-subtitulado.mp4`.
