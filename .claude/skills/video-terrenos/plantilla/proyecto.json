@@ -1,0 +1,35 @@
+{
+  "proyecto": {
+    "nombre": null,
+    "slug": null,
+    "ubicacion": null,
+    "loteadora": null,
+    "tour_virtual": null
+  },
+  "contacto": {
+    "asesor": null,
+    "rol": "Asesor Inmobiliario",
+    "whatsapp": null,
+    "independiente": true
+  },
+  "voz": {
+    "tipo": null,
+    "referencia": null,
+    "autorizacion": null
+  },
+  "logo": {
+    "archivo": null,
+    "mostrar_en_cierre": false
+  },
+  "datos_comerciales": {
+    "lotes": null,
+    "superficie_desde_m2": null,
+    "cuota_desde_gs": null,
+    "plazo_max_meses": null,
+    "contado": null,
+    "fuente": null
+  },
+  "distancias": [],
+  "codigo": null,
+  "creado": null
+}

@@ -1,0 +1,42 @@
+{
+  "proyecto": {
+    "nombre": "Portal de Santaní",
+    "slug": "portal-santani",
+    "ubicacion": "San Estanislao (Santaní), San Pedro, Paraguay",
+    "loteadora": "Trebol Loteadora",
+    "tour_virtual": "https://trebolote.com.py/proyecto/YAt6vEGVX6ShhhewOeco"
+  },
+  "contacto": {
+    "asesor": "Adolfo Castillo",
+    "rol": "Asesor Inmobiliario",
+    "whatsapp": "+595 976 557 380",
+    "independiente": true
+  },
+  "voz": {
+    "tipo": "clonada",
+    "referencia": "portal-santani/v2/voz/referencia_adolfo/ref_adolfo_13s.wav",
+    "autorizacion": "proyectos/portal-santani/voz/AUTORIZACION.md"
+  },
+  "logo": {
+    "archivo": "portal-santani/public/v2/logo_trebol.png",
+    "mostrar_en_cierre": false
+  },
+  "datos_comerciales": {
+    "lotes": 650,
+    "superficie_desde_m2": 360,
+    "cuota_desde_gs": 200000,
+    "plazo_max_meses": 130,
+    "contado": true,
+    "fuente": "sitio oficial de la loteadora y datos del asesor"
+  },
+  "distancias": [
+    {"a": "Ruta 3", "valor": "≈1,4 km", "fuente": "KMZ + OSM (1.374 m)"},
+    {"a": "Santaní", "valor": "3,9 km", "fuente": "Tour Virtual"},
+    {"a": "Arroyo Tapiracuái", "valor": "6,5 km", "fuente": "Tour Virtual"},
+    {"a": "Almacén Ka'avo", "valor": "3 km", "fuente": "Tour Virtual"},
+    {"a": "Cruce Tacuara", "valor": "10,1 km", "fuente": "Tour Virtual"}
+  ],
+  "codigo": "portal-santani",
+  "creado": "2026-09-23",
+  "nota": "Proyecto de referencia con el que se desarrolló el método. Estructura anterior al Skill: su código y materiales viven en portal-santani/."
+}
