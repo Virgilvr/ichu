@@ -187,7 +187,7 @@ export const Tour: React.FC = () => {
           CONSULTAR POR WHATSAPP
         </div>
       </div>
-      <Titular entra={s(0.8)} y={1372} size={28} peso={600} ancho={900}>
+      <Titular entra={s(0.8)} y={1358} size={27} peso={600} ancho={900}>
         {aclaracion}
       </Titular>
     </AbsoluteFill>

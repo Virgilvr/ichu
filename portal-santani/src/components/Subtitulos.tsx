@@ -10,7 +10,7 @@ export const Subtitulos: React.FC = () => {
   if (!linea) return null;
   const o = interpolate(t, [linea.desde, linea.desde + 0.12, linea.hasta - 0.12, linea.hasta], [0, 1, 1, 0]);
   return (
-    <div style={{position: 'absolute', left: 70, right: 70, top: 1420, display: 'flex', justifyContent: 'center', opacity: o}}>
+    <div style={{position: 'absolute', left: 70, right: 70, top: 1442, display: 'flex', justifyContent: 'center', opacity: o}}>
       <div
         style={{
           background: 'rgba(0,0,0,.72)',
