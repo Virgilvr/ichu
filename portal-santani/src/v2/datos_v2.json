@@ -1,5 +1,5 @@
 {
-  "total": 55.06,
+  "total": 52.16,
   "escenas": [
     {
       "id": "viaje",
@@ -14,41 +14,41 @@
     {
       "id": "entrada",
       "desde": 11.25,
-      "dur": 3.6
+      "dur": 3.06
     },
     {
       "id": "recorrido",
-      "desde": 14.85,
-      "dur": 8.6
+      "desde": 14.31,
+      "dur": 8.0
     },
     {
       "id": "lotes",
-      "desde": 23.45,
-      "dur": 6.53
+      "desde": 22.31,
+      "dur": 6.23
     },
     {
       "id": "panoramica",
-      "desde": 29.98,
-      "dur": 2.6
+      "desde": 28.54,
+      "dur": 1.6
     },
     {
       "id": "ubicacion",
-      "desde": 32.58,
-      "dur": 3.4
+      "desde": 30.14,
+      "dur": 3.15
     },
     {
       "id": "oferta",
-      "desde": 35.98,
+      "desde": 33.29,
       "dur": 8.88
     },
     {
       "id": "tour",
-      "desde": 44.86,
-      "dur": 3.4
+      "desde": 42.17,
+      "dur": 3.19
     },
     {
       "id": "contacto",
-      "desde": 48.26,
+      "desde": 45.36,
       "dur": 6.8
     }
   ],
@@ -72,44 +72,44 @@
       "voz": "Y acá está… ¡Portal de Santaní!"
     },
     {
-      "desde": 18.45,
-      "hasta": 23.0,
+      "desde": 17.41,
+      "hasta": 21.96,
       "texto": "Mirá sus calles… sus lotes, uno al lado del otro.",
       "voz": "Mirá sus calles… sus lotes, uno al lado del otro."
     },
     {
-      "desde": 24.75,
-      "hasta": 29.63,
+      "desde": 23.31,
+      "hasta": 28.19,
       "texto": "¡650 lotes, desde 360 m²!",
       "voz": "¡Seiscientos cincuenta lotes, desde trescientos sesenta metros cuadrados!"
     },
     {
-      "desde": 32.88,
-      "hasta": 35.38,
+      "desde": 30.44,
+      "hasta": 32.95,
       "texto": "A unos siete minutos del centro de Santaní.",
       "voz": "A unos siete minutos del centro de Santaní."
     },
     {
-      "desde": 36.18,
-      "hasta": 44.51,
+      "desde": 33.49,
+      "hasta": 41.82,
       "texto": "Y lo mejor… ¡cuotas desde 200 mil guaraníes, hasta 130 meses, o al contado!",
       "voz": "Y lo mejor… ¡cuotas desde doscientos mil guaraníes, hasta ciento treinta meses, o al contado!"
     },
     {
-      "desde": 45.16,
-      "hasta": 47.7,
+      "desde": 42.47,
+      "hasta": 45.01,
       "texto": "Elegí tu lote en nuestro Tour Virtual.",
       "voz": "Elegí tu lote en nuestro Tour Virtual."
     },
     {
-      "desde": 48.46,
-      "hasta": 52.28,
+      "desde": 45.56,
+      "hasta": 49.38,
       "texto": "¿Querés conocer los lotes disponibles? ¡Escribinos por WhatsApp!",
       "voz": "¿Querés conocer los lotes disponibles? ¡Escribinos por guatsap!"
     },
     {
-      "desde": 52.58,
-      "hasta": 54.71,
+      "desde": 49.68,
+      "hasta": 51.81,
       "texto": "Soy Adolfo Castillo.",
       "voz": "¡Soy Adolfo Castillo!"
     }
@@ -141,58 +141,58 @@
       "texto": "Y acá está… ¡Portal de Santaní!"
     },
     {
-      "desde": 18.45,
-      "hasta": 20.73,
+      "desde": 17.41,
+      "hasta": 19.69,
       "texto": "Mirá sus calles… sus lotes,"
     },
     {
-      "desde": 20.73,
-      "hasta": 23.0,
+      "desde": 19.69,
+      "hasta": 21.96,
       "texto": "uno al lado del otro."
     },
     {
-      "desde": 24.75,
-      "hasta": 29.63,
+      "desde": 23.31,
+      "hasta": 28.19,
       "texto": "¡650 lotes, desde 360 m²!"
     },
     {
-      "desde": 32.88,
-      "hasta": 35.38,
+      "desde": 30.44,
+      "hasta": 32.95,
       "texto": "A unos siete minutos del centro de Santaní."
     },
     {
-      "desde": 36.18,
-      "hasta": 36.96,
+      "desde": 33.49,
+      "hasta": 34.27,
       "texto": "Y lo mejor…"
     },
     {
-      "desde": 36.96,
-      "hasta": 40.61,
+      "desde": 34.27,
+      "hasta": 37.92,
       "texto": "¡cuotas desde 200 mil guaraníes,"
     },
     {
-      "desde": 40.61,
-      "hasta": 44.51,
+      "desde": 37.92,
+      "hasta": 41.82,
       "texto": "hasta 130 meses, o al contado!"
     },
     {
-      "desde": 45.16,
-      "hasta": 47.7,
+      "desde": 42.47,
+      "hasta": 45.01,
       "texto": "Elegí tu lote en nuestro Tour Virtual."
     },
     {
-      "desde": 48.46,
-      "hasta": 50.87,
+      "desde": 45.56,
+      "hasta": 47.97,
       "texto": "¿Querés conocer los lotes disponibles?"
     },
     {
-      "desde": 50.87,
-      "hasta": 52.28,
+      "desde": 47.97,
+      "hasta": 49.38,
       "texto": "¡Escribinos por WhatsApp!"
     },
     {
-      "desde": 52.58,
-      "hasta": 54.71,
+      "desde": 49.68,
+      "hasta": 51.81,
       "texto": "Soy Adolfo Castillo."
     }
   ]

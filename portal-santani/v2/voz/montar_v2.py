@@ -18,10 +18,10 @@ REAL.mkdir(exist_ok=True)
 PY = sys.executable
 
 # (escena, duración nominal)
-ESCENAS = [('viaje', 5.0), ('llegada', 4.6), ('entrada', 3.6), ('recorrido', 8.6), ('lotes', 4.5),
-           ('panoramica', 2.6), ('ubicacion', 3.4), ('oferta', 5.5), ('tour', 3.4), ('contacto', 4.5)]
+ESCENAS = [('viaje', 5.0), ('llegada', 4.6), ('entrada', 2.9), ('recorrido', 7.9), ('lotes', 4.5),
+           ('panoramica', 1.6), ('ubicacion', 2.9), ('oferta', 5.5), ('tour', 2.9), ('contacto', 4.5)]
 # frase -> (escena, segundos desde el inicio de la escena); None = a continuación de la anterior
-ANCLAS = [('viaje', 0.3), ('llegada', 0.2), ('entrada', 0.25), ('recorrido', 3.6), ('lotes', 1.3),
+ANCLAS = [('viaje', 0.3), ('llegada', 0.2), ('entrada', 0.25), ('recorrido', 3.1), ('lotes', 1.0),
           ('ubicacion', 0.3), ('oferta', 0.2), ('tour', 0.3), ('contacto', 0.2), None]
 TEMPO = sys.argv[1] if len(sys.argv) > 1 else '1.07'
 

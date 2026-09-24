@@ -120,7 +120,7 @@ const Descenso: React.FC<{dur: number}> = ({dur}) => {
 };
 
 const Recorrido: React.FC<{dur: number}> = ({dur}) => {
-  const d1 = s(3.5);
+  const d1 = s(3.0);
   const d3 = s(1.6);
   const d2 = dur - d1 - d3;
   return (
