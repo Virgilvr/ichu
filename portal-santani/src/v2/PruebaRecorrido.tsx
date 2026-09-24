@@ -30,20 +30,20 @@ const lerp = (a: KF, b: KF, f: number): Cam3D => {
     tilt: a.tilt + (b.tilt - a.tilt) * p,
   };
 };
-const recorrer = (kfs: KF[], f: number) => {
+export const recorrer = (kfs: KF[], f: number) => {
   for (let i = 0; i < kfs.length - 1; i++) if (f <= kfs[i + 1].t) return lerp(kfs[i], kfs[i + 1], f);
   return kfs[kfs.length - 1];
 };
 const en = (p: number[], d: number) => ({x: p[0] + U[0] * d, y: p[1] + U[1] * d});
 
 // Descenso: de la vista cenital del loteamiento a la altura de la calle, y avance
-const DESCENSO: KF[] = [
+export const DESCENSO: KF[] = [
   {t: 0, x: 0, y: 0, mpp: 1.25, rot: -45, tilt: 0},
   {t: s(2.2), ...en(P0, 10), mpp: 0.3, rot: RUMBO, tilt: 58},
   {t: s(3.5), ...en(P0, 70), mpp: 0.24, rot: RUMBO, tilt: 64},
 ];
 // Subida: avanza hasta la esquina, gira 90° y se eleva mostrando todo el proyecto
-const SUBIDA: KF[] = [
+export const SUBIDA: KF[] = [
   {t: 0, ...en(P1, -60), mpp: 0.24, rot: RUMBO, tilt: 64},
   {t: s(0.9), ...en(P1, 0), mpp: 0.24, rot: RUMBO, tilt: 64},
   {t: s(1.6), x: P1[0], y: P1[1], mpp: 0.26, rot: RUMBO - 90, tilt: 60},

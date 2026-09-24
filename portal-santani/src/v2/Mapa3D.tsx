@@ -15,6 +15,18 @@ const PH = 5200; // el plano se extiende hacia arriba para que haya "horizonte" 
 const CX = PW / 2;
 const CY = PH - 960; // la cámara mira al punto que queda en el centro de la pantalla
 
+/** Proyección a pantalla para la vista cenital (tilt 0), para dibujar capas encima. */
+export const proyectar3D = (cam: Cam3D) => {
+  const r = (cam.rot * Math.PI) / 180;
+  const cos = Math.cos(r);
+  const sin = Math.sin(r);
+  return (p: number[]): [number, number] => {
+    const dx = (p[0] - cam.x) / cam.mpp;
+    const dy = (p[1] - cam.y) / cam.mpp;
+    return [CX + dx * cos - dy * sin + (1080 - PW) / 2, CY + dx * sin + dy * cos + 1920 - PH];
+  };
+};
+
 export const Mapa3D: React.FC<{cam: Cam3D; lotes?: number; oscurecer?: number}> = ({cam, lotes = 1, oscurecer = 0}) => {
   const r = (cam.rot * Math.PI) / 180;
   const cos = Math.cos(r);

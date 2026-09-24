@@ -9,6 +9,7 @@ import {FPS, H, TOTAL, W} from './config';
 import {Reel} from './Reel';
 import {Portada} from './Portada';
 import {DUR_PRUEBA, FPS2, PruebaRecorrido} from './v2/PruebaRecorrido';
+import {DUR_V2, ReelV2} from './v2/ReelV2';
 
 // Espera a que Montserrat esté cargada antes de capturar frames
 if (typeof document !== 'undefined') {
@@ -21,6 +22,8 @@ export const Root: React.FC = () => (
     <Composition id="Reel" component={Reel} durationInFrames={TOTAL} fps={FPS} width={W} height={H} defaultProps={{subtitulos: false}} />
     <Composition id="ReelSubtitulado" component={Reel} durationInFrames={TOTAL} fps={FPS} width={W} height={H} defaultProps={{subtitulos: true}} />
     <Still id="Portada" component={Portada} width={W} height={H} defaultProps={{feed: false}} />
+    <Composition id="ReelV2" component={ReelV2} durationInFrames={DUR_V2} fps={30} width={W} height={H} defaultProps={{subtitulos: false}} />
+    <Composition id="ReelV2Subtitulado" component={ReelV2} durationInFrames={DUR_V2} fps={30} width={W} height={H} defaultProps={{subtitulos: true}} />
     <Composition id="V2PruebaRecorrido" component={PruebaRecorrido} durationInFrames={DUR_PRUEBA} fps={FPS2} width={W} height={H} />
     <Still id="PortadaFeed" component={Portada} width={1080} height={1350} defaultProps={{feed: true}} />
   </>
