@@ -8,6 +8,7 @@ import '@fontsource/montserrat/900.css';
 import {FPS, H, TOTAL, W} from './config';
 import {Reel} from './Reel';
 import {Portada} from './Portada';
+import {DUR_PRUEBA, FPS2, PruebaRecorrido} from './v2/PruebaRecorrido';
 
 // Espera a que Montserrat esté cargada antes de capturar frames
 if (typeof document !== 'undefined') {
@@ -20,6 +21,7 @@ export const Root: React.FC = () => (
     <Composition id="Reel" component={Reel} durationInFrames={TOTAL} fps={FPS} width={W} height={H} defaultProps={{subtitulos: false}} />
     <Composition id="ReelSubtitulado" component={Reel} durationInFrames={TOTAL} fps={FPS} width={W} height={H} defaultProps={{subtitulos: true}} />
     <Still id="Portada" component={Portada} width={W} height={H} defaultProps={{feed: false}} />
+    <Composition id="V2PruebaRecorrido" component={PruebaRecorrido} durationInFrames={DUR_PRUEBA} fps={FPS2} width={W} height={H} />
     <Still id="PortadaFeed" component={Portada} width={1080} height={1350} defaultProps={{feed: true}} />
   </>
 );

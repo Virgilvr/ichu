@@ -44,3 +44,31 @@ Instrumental original, 90–96 BPM: arranque suave en el viaje, crece en la lleg
 1. Material real (ver tabla).
 2. Aprobación de este guion.
 3. Luego: generar la locución G por frases → sincronización exacta → prueba visual corta (llegada + manzana).
+
+
+---
+
+# Actualización: material real recibido (7 fotos + 4 videos) y prueba visual
+
+## Inventario
+| Archivo | Contenido | Uso propuesto |
+|---|---|---|
+| VID-WA0088 (50 s) | Ruta 3 asfaltada, estación de servicio y desvío al camino de acceso. Narración del vendedor: se entra junto a la estación, camino enripiado "de todo tiempo" | Escenas 1–2 (viaje y llegada) |
+| VID-WA0087 (79 s) | Portal de entrada en obra con el cartel de Trebol, camino de ripio rojo. Narración: "a unos 1500 m de la ruta", "menos de 10 minutos del centro" | Escena 3 (entrada) |
+| VID-WA0086 (70 s) | Recorrido en vehículo por calles recién abiertas, pastizal, eucaliptales al fondo, máquina trabajando | Escena 4 (recorrido interno) |
+| VID-WA0072 (91 s) | Grabación del Tour Virtual: vista aérea 360° real con carteles de orientación (Asunción, Coronel Oviedo, Cruce Tacuara, Ruta 3) y fichas de lotes | Escenas 6, 7 y 9 |
+| foto1, foto4, foto5/6, foto7 | Calles abiertas, estacas de mojón, pastizal y cielo | Escenas 4, 5, 8 |
+| foto2 | Calle con cerco y estaca | Escena 8 (oferta) |
+| foto3 | Camino de ripio rojo con postes de luz (acceso) | Escena 2 |
+
+Calidad: los videos llegaron comprimidos por WhatsApp (~390×848). Se ven algo blandos a 1080×1920; las fotos sí están en alta (2448×3264).
+
+## Verificaciones
+- La entrada por la Ruta 3 junto a una estación de servicio coincide con OSM (estación "Ka'avo" sobre la Ruta PY03).
+- "1500 m de la ruta" (vendedor) coincide con la medición sobre el KMZ (1,37 km en línea recta): en pantalla se mantiene "≈ 1,4 km".
+- La marca de la estación no se nombra (en el video el cartel no se lee con claridad).
+- Las fichas del Tour muestran cuotas por lote de Gs. 220.000 a 320.000 con descuento: en el video se difuminan los montos y se mantiene "Cuotas desde Gs. 200.000" (dato del sitio oficial).
+- Obras en curso (portal en construcción, máquinas): se muestran tal cual, sin prometer terminaciones.
+
+## Prueba visual (aprobación pendiente)
+`v2/pruebas/prueba-recorrido.mp4` (15,7 s): entrada real → descenso 3D sobre el KMZ hasta una calle real (eje calculado entre manzanas, 16 m de ancho) → video real por la calle → foto de estacas → giro de 90° en la esquina y subida hasta ver todo el loteamiento. Voz G en las frases 3 y 4 del guion.
