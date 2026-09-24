@@ -5,11 +5,13 @@ import '@fontsource/montserrat/600.css';
 import '@fontsource/montserrat/700.css';
 import '@fontsource/montserrat/800.css';
 import '@fontsource/montserrat/900.css';
+import '@fontsource/montserrat/700-italic.css';
 import {FPS, H, TOTAL, W} from './config';
 import {Reel} from './Reel';
 import {Portada} from './Portada';
 import {DUR_PRUEBA, FPS2, PruebaRecorrido} from './v2/PruebaRecorrido';
 import {DUR_V2, ReelV2} from './v2/ReelV2';
+import {DUR_V3, ReelV3} from './v3/ReelV3';
 
 // Espera a que Montserrat esté cargada antes de capturar frames
 if (typeof document !== 'undefined') {
@@ -25,6 +27,8 @@ export const Root: React.FC = () => (
     <Composition id="ReelV2" component={ReelV2} durationInFrames={DUR_V2} fps={30} width={W} height={H} defaultProps={{subtitulos: false}} />
     <Composition id="ReelV2Subtitulado" component={ReelV2} durationInFrames={DUR_V2} fps={30} width={W} height={H} defaultProps={{subtitulos: true}} />
     <Composition id="V2PruebaRecorrido" component={PruebaRecorrido} durationInFrames={DUR_PRUEBA} fps={FPS2} width={W} height={H} />
+    <Composition id="ReelV3" component={ReelV3} durationInFrames={DUR_V3} fps={30} width={W} height={H} defaultProps={{subtitulos: false}} />
+    <Composition id="ReelV3Subtitulado" component={ReelV3} durationInFrames={DUR_V3} fps={30} width={W} height={H} defaultProps={{subtitulos: true}} />
     <Still id="PortadaFeed" component={Portada} width={1080} height={1350} defaultProps={{feed: true}} />
   </>
 );

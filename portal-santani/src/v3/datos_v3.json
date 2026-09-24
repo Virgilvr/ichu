@@ -1,0 +1,154 @@
+{
+  "vo": 0.8,
+  "finVoz": 61.375,
+  "total": 64.38,
+  "frases": [
+    {
+      "desde": 0.8,
+      "hasta": 4.96,
+      "texto": "Hay lugares que no solamente se visitan… se sienten."
+    },
+    {
+      "desde": 5.76,
+      "hasta": 12.16,
+      "texto": "Santaní… una ciudad con historia, tradición y un encanto que permanece."
+    },
+    {
+      "desde": 13.06,
+      "hasta": 19.52,
+      "texto": "Cuenta la leyenda que quien se sumerge en las aguas del Tapiracuái… queda hechizado y siempre quiere volver."
+    },
+    {
+      "desde": 20.42,
+      "hasta": 25.65,
+      "texto": "Y quizás sea por eso que quienes conocen Santaní… siempre quieren regresar."
+    },
+    {
+      "desde": 26.65,
+      "hasta": 31.4,
+      "texto": "Y hoy, acá comienza una nueva historia… Portal de Santaní."
+    },
+    {
+      "desde": 33.0,
+      "hasta": 37.92,
+      "texto": "650 lotes, desde 360 m²."
+    },
+    {
+      "desde": 38.62,
+      "hasta": 44.8,
+      "texto": "Cuotas desde 200 mil guaraníes, hasta 130 meses… o al contado."
+    },
+    {
+      "desde": 46.0,
+      "hasta": 49.34,
+      "texto": "Recorré el proyecto y elegí tu lote en nuestro Tour Virtual."
+    },
+    {
+      "desde": 50.54,
+      "hasta": 54.62,
+      "texto": "Portal de Santaní… un lugar para empezar tu próxima historia."
+    },
+    {
+      "desde": 55.52,
+      "hasta": 60.0,
+      "texto": "¿Querés conocer los lotes disponibles? Escribinos por WhatsApp."
+    }
+  ],
+  "subtitulos": [
+    {
+      "desde": 0.8,
+      "hasta": 4.23,
+      "texto": "Hay lugares que no solamente se visitan…"
+    },
+    {
+      "desde": 4.23,
+      "hasta": 4.96,
+      "texto": "se sienten."
+    },
+    {
+      "desde": 5.76,
+      "hasta": 8.82,
+      "texto": "Santaní… una ciudad con historia,"
+    },
+    {
+      "desde": 8.82,
+      "hasta": 12.16,
+      "texto": "tradición y un encanto que permanece."
+    },
+    {
+      "desde": 13.06,
+      "hasta": 17.17,
+      "texto": "Cuenta la leyenda que quien se sumerge en las aguas del Tapiracuái…"
+    },
+    {
+      "desde": 17.17,
+      "hasta": 19.52,
+      "texto": "queda hechizado y siempre quiere volver."
+    },
+    {
+      "desde": 20.42,
+      "hasta": 23.99,
+      "texto": "Y quizás sea por eso que quienes conocen Santaní…"
+    },
+    {
+      "desde": 23.99,
+      "hasta": 25.65,
+      "texto": "siempre quieren regresar."
+    },
+    {
+      "desde": 26.65,
+      "hasta": 26.9,
+      "texto": "Y hoy,"
+    },
+    {
+      "desde": 26.9,
+      "hasta": 29.9,
+      "texto": "acá comienza una nueva historia…"
+    },
+    {
+      "desde": 29.9,
+      "hasta": 31.4,
+      "texto": "Portal de Santaní."
+    },
+    {
+      "desde": 33.0,
+      "hasta": 37.92,
+      "texto": "650 lotes, desde 360 m²."
+    },
+    {
+      "desde": 38.62,
+      "hasta": 41.6,
+      "texto": "Cuotas desde 200 mil guaraníes,"
+    },
+    {
+      "desde": 41.6,
+      "hasta": 44.8,
+      "texto": "hasta 130 meses… o al contado."
+    },
+    {
+      "desde": 46.0,
+      "hasta": 49.34,
+      "texto": "Recorré el proyecto y elegí tu lote en nuestro Tour Virtual."
+    },
+    {
+      "desde": 50.54,
+      "hasta": 51.71,
+      "texto": "Portal de Santaní…"
+    },
+    {
+      "desde": 51.71,
+      "hasta": 54.62,
+      "texto": "un lugar para empezar tu próxima historia."
+    },
+    {
+      "desde": 55.52,
+      "hasta": 58.35,
+      "texto": "¿Querés conocer los lotes disponibles?"
+    },
+    {
+      "desde": 58.35,
+      "hasta": 60.0,
+      "texto": "Escribinos por WhatsApp."
+    }
+  ]
+}
