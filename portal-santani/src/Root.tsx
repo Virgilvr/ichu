@@ -13,6 +13,7 @@ import {DUR_PRUEBA, FPS2, PruebaRecorrido} from './v2/PruebaRecorrido';
 import {DUR_V2, ReelV2} from './v2/ReelV2';
 import {DUR_V3, ReelV3} from './v3/ReelV3';
 import {PlacaCierre} from './comun/PlacaCierre';
+import {AdsFlyer, AdsVideo, DUR_ADS_VIDEO} from './ads/AdsTest';
 
 // Espera a que Montserrat esté cargada antes de capturar frames
 if (typeof document !== 'undefined') {
@@ -33,6 +34,10 @@ export const Root: React.FC = () => (
     <Composition id="ReelV3SubDestacado" component={ReelV3} durationInFrames={DUR_V3} fps={30} width={W} height={H} defaultProps={{subtitulos: true, destacados: true}} />
     {/* Vista previa de la placa genérica (plantilla Video Terrenos): los datos reales van por --props desde proyecto.json */}
     <Composition id="PlacaCierre" component={PlacaCierre} durationInFrames={270} fps={30} width={W} height={H} defaultProps={{proyecto: 'NOMBRE DEL PROYECTO', asesor: 'Nombre del Asesor', rol: 'Asesor Inmobiliario', whatsapp: '+595 9XX XXX XXX'}} />
+    {/* Creativos de prueba para Meta Ads (salida: output/ads-test/) */}
+    <Composition id="AdsVideo" component={AdsVideo} durationInFrames={DUR_ADS_VIDEO} fps={30} width={W} height={H} />
+    <Still id="AdsFlyer1350" component={AdsFlyer} width={1080} height={1350} defaultProps={{alto: 1350}} />
+    <Still id="AdsFlyer1080" component={AdsFlyer} width={1080} height={1080} defaultProps={{alto: 1080}} />
     <Still id="PortadaFeed" component={Portada} width={1080} height={1350} defaultProps={{feed: true}} />
   </>
 );
