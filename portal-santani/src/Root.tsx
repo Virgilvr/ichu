@@ -14,6 +14,7 @@ import {DUR_V2, ReelV2} from './v2/ReelV2';
 import {DUR_V3, ReelV3} from './v3/ReelV3';
 import {PlacaCierre} from './comun/PlacaCierre';
 import {AdsFlyer, AdsVideo, DUR_ADS_VIDEO} from './ads/AdsTest';
+import {AdsVeniFlyer, AdsVeniVideo, AereoFijo, DUR_VENI} from './ads/AdsVeni';
 
 // Espera a que Montserrat esté cargada antes de capturar frames
 if (typeof document !== 'undefined') {
@@ -38,6 +39,10 @@ export const Root: React.FC = () => (
     <Composition id="AdsVideo" component={AdsVideo} durationInFrames={DUR_ADS_VIDEO} fps={30} width={W} height={H} />
     <Still id="AdsFlyer1350" component={AdsFlyer} width={1080} height={1350} defaultProps={{alto: 1350}} />
     <Still id="AdsFlyer1080" component={AdsFlyer} width={1080} height={1080} defaultProps={{alto: 1080}} />
+    <Composition id="AdsVeniVideo" component={AdsVeniVideo} durationInFrames={DUR_VENI} fps={30} width={W} height={H} />
+    <Still id="AdsVeniFlyer1350" component={AdsVeniFlyer} width={1080} height={1350} defaultProps={{alto: 1350}} />
+    <Still id="AdsVeniFlyer1080" component={AdsVeniFlyer} width={1080} height={1080} defaultProps={{alto: 1080}} />
+    <Still id="AereoFijo" component={AereoFijo} width={W} height={H} />
     <Still id="PortadaFeed" component={Portada} width={1080} height={1350} defaultProps={{feed: true}} />
   </>
 );

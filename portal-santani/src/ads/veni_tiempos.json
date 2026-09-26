@@ -1,0 +1,58 @@
+{
+ "total": 14.5,
+ "voz": [
+  {
+   "archivo": "voz_1.wav",
+   "desde": 0.3,
+   "hasta": 2.96
+  },
+  {
+   "archivo": "voz_2.wav",
+   "desde": 3.3,
+   "hasta": 6.57
+  },
+  {
+   "archivo": "voz_3.wav",
+   "desde": 11.4,
+   "hasta": 13.32
+  }
+ ],
+ "escenas": {
+  "entrada": [
+   0,
+   1.65
+  ],
+  "aereo": [
+   1.65,
+   3.3
+  ],
+  "calles": [
+   3.3,
+   4.2
+  ],
+  "precio": [
+   4.2,
+   6.9
+  ],
+  "lotes": [
+   6.9,
+   7.8
+  ],
+  "acceso": [
+   7.8,
+   8.8
+  ],
+  "camino": [
+   8.8,
+   9.8
+  ],
+  "m2": [
+   9.8,
+   11.2
+  ],
+  "cierre": [
+   11.2,
+   14.5
+  ]
+ }
+}
