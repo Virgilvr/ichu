@@ -1,0 +1,13 @@
+# El nucleo del laboratorio usa SOLO la biblioteca estandar de Python 3.11+
+# (email, json, argparse, datetime, dataclasses). No requiere dependencias
+# externas para construir/analizar mensajes ni generar informes.
+
+# --- Solo para ejecutar las pruebas automatizadas ---
+pytest>=7.0
+
+# --- OPCIONAL, solo para la Fase 4 (envio real entre cuentas propias) ---
+# No se instala por defecto. Se usa unicamente con autorizacion explicita y
+# cuentas de prueba confirmadas, mediante OAuth 2.0 (sin contrasenas en archivos).
+# google-api-python-client>=2.0
+# google-auth-oauthlib>=1.0
+# google-auth>=2.0

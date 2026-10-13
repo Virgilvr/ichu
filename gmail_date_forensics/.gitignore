@@ -1,0 +1,19 @@
+# Salidas del laboratorio
+salida/
+salida_*/
+*.eml
+informe.json
+informe.txt
+
+# Credenciales Fase 4 (NUNCA versionar)
+token.json
+credentials.json
+client_secret*.json
+*.pickle
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
